@@ -107,7 +107,7 @@ function draw() {
 }
 function mouseDragged(){
   if (i === 0){
-    if (mouseX<260){
+    if (mouseX < 260){
       Matter.Body.setPosition(this.polygon, {x: mouseX , y: mouseY});
     }
   }
